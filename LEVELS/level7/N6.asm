@@ -1,0 +1,13 @@
+START:
+    SWP
+    MOV UP, ACC
+    JEZ OUTPUT
+    SWP
+    ADD UP
+    JMP START
+
+OUTPUT:
+    SWP
+    MOV ACC, DOWN
+    MOV 0, ACC
+    JMP START

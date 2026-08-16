@@ -1,0 +1,10 @@
+*.log
+*.vcd
+*.vpd
+*.fsdb
+simv*
+work/
+transcript
+*.out
+program.txt
+N*_machine.txt    # if you don't want to commit program files

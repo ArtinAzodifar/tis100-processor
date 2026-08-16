@@ -1,0 +1,12 @@
+START:
+    MOV UP, ACC
+    JEZ ZERO
+    MOV 1, DOWN
+    MOV ACC, DOWN
+    MOV 1, RIGHT
+    JMP START
+
+ZERO:
+    MOV 0, DOWN
+    MOV 0, RIGHT
+    JMP START
